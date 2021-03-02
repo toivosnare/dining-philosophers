@@ -1,0 +1,12 @@
+[package]
+name = "dining-philosophers"
+version = "0.1.0"
+authors = ["Toivo Snåre <topisn@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "dining"
+path = "dining.rs"
+
+[dependencies]
+rand = "0.8.3"
